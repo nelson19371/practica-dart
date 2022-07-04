@@ -43,5 +43,29 @@ void main(List<String> arguments) {
   //Limpiar objeto buffer
   buffer.clear();
   print(buffer.isEmpty);
+ 
+ //Listas (Array) de numeros enteros
+  
+  List<int> listaEnteros = [1,2,3,4,5];
+  
+  //Funcion de array add agrega 1 elemento al final de la lista
+  
+  listaEnteros.add(6);
+  
+  print(listaEnteros);
+  
+  //Lista de cadenas de texto
+  
+  List<String> listaString = ['Nelson','Sandoval'];
+  
+  //Funcion add que agrega un elemento a la lista de strings
+  
+  listaString.add('Fernandez');
+  
+  //Agregar mas de un elementos con la funcion de array addAll
+  
+  listaString.addAll(['Javier', 'de los angeles']);
+  
+  print(listaString);
   
 }

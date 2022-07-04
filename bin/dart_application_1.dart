@@ -25,5 +25,23 @@ void main(List<String> arguments) {
   
   //Mostrar en mayusculas la cadena de texto correo
   print(correo.toUpperCase());
+ 
+  //STRING BUFFER
+  
+ //Los objetos de tipo StringBuffer sirven para almacenar de manera mas eficiente
+ // las cadenas de texto agregadas con la funcion write.
+  
+  
+  StringBuffer buffer = StringBuffer();
+  
+  buffer.write('Dart es genial ');
+  
+  //Escribir mas de una cadena o variable
+  
+  buffer.writeAll(['Dart ','Flutter',3]);
+  
+  //Limpiar objeto buffer
+  buffer.clear();
+  print(buffer.isEmpty);
   
 }

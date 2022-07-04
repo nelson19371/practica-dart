@@ -126,6 +126,21 @@ void main(List<String> arguments) {
   List alumnosConS = alumnos.where((alumno)=> alumno.startsWith('S')).toList();
   
   print(alumnosConS);
+ 
+ //MAP ES UN OBJETO QUE ASOCIA CLAVES Y VALORES
+
+ Map Persona ={
+   'Nombre': 'Nelson',
+   'Edad':35,
+   'Estado civil':'Soltero',
+   true:false,
+   1:300,
+   2:50
+ };
+  
+  print(Persona[2]);
+  Persona.addAll({'persona':'persona1'});
+  print(Persona);
   
   
 }
